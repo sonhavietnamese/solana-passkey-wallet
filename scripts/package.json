@@ -1,0 +1,14 @@
+{
+  "name": "scripts",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@simplewebauthn/browser": "^13.1.0",
+    "@simplewebauthn/server": "^13.1.1",
+    "@simplewebauthn/types": "^12.0.0",
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
