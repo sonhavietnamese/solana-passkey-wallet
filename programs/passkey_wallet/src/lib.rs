@@ -9,7 +9,7 @@ use solana_secp256r1_program::{
 declare_id!("PhaARiQBd8a2AcH239Hzf84EM3KLNP1JGEP9CUeZfvE");
 
 #[program]
-pub mod vi {
+pub mod passkey_wallet {
     use super::*;
 
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
